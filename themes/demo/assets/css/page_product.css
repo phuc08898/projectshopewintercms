@@ -1,0 +1,348 @@
+.product-item{
+
+}
+.product_frame{
+    
+    
+}
+.frame_img{
+    padding-top: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
+.product_frame-many-imgs{
+    margin-top: 20px;
+
+
+}
+.img-poduct{
+    display: flex;
+
+}
+.img{
+    width: 18%;
+    margin-right: 13px;
+
+
+}
+.img_product-link{
+    display: contents;
+}
+.img:hover {
+    border: 2px solid var(--primary-color);
+    border-radius: 2px;
+}
+.share-icon-love{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+.search{
+    padding: 0 10px;
+    font-size: 2.3rem;
+    border-right: 1px solid #ccc;
+}
+.search_ion{
+    font-size: 2rem;
+}
+/* phần đnahs giá sản phẩm  */
+.content_product{
+   margin: 10px 5px 15px 5px ;
+
+}
+.name_product{
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    
+}
+.evaluate_product{
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.evaluate_product-find-stars{
+    font-size:1.9rem ;
+    font-weight: 500;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 2px;
+    padding-left: -10px;
+    margin-right: 5px;
+}
+.product-item-find-stars-corlor{
+
+}
+.evaluate_product-quantity{
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+    color: var(--text-color);
+}
+.evaluate_product-quantity_buy{
+    color: var(--text-color);
+    margin-left: 20px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-left: 1px solid #ccc;
+    padding-left: 15px;
+}
+.price_product{
+    display: flex;
+    flex-direction: column;
+    margin: 26px;
+    padding-top: 20px;
+}
+.price_product-item{
+    font-size: 3rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    padding-bottom: 17px;
+
+}
+.price_product-item-sale{
+
+    font-size: 1.6rem;
+}
+.price_product-item-img{
+    width: 130px;
+    position: relative;
+    top: 7px;
+    padding-right: 10px;
+}
+.product-ship{
+    font-size: 1.9rem;
+    
+    
+}
+.chinh_sach{
+    padding: 20px;
+    max-width: 100%;    
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+}
+.chinh_sach-item{
+    width: 170px;
+    display: block;
+    padding-right: 20px;
+}
+.chinh_sach-item-link{
+    text-decoration: none;
+    display: block;
+}
+.chinh_sach-item2{
+    flex: 1;
+}
+.chinh_sach-item-new{
+    
+    background-color: var(--primary-color);
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    border-radius: 15px 10px 10px 5px;
+}
+.product-ship-columm{
+       display: flex;
+       flex-direction: column;
+       align-items: first baseline;
+}
+.chinh_sach-item3{
+    padding: 15px 0;
+}
+.phan_loai{
+    margin-top: 10px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.phan_loai-ten{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--primary-color);
+
+}
+.btn-chon{
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.8rem;
+    padding:9px 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+
+}
+.btn-chon:hover{
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+
+}
+.btn-check-finished{
+    border: 3px solid var(--primary-color);
+    color: var(--primary-color);
+    position: relative;
+
+}
+.phan_loai-ion{
+
+    position: absolute;
+    left: -2px;
+    bottom: 0px;
+    margin-left: 2px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px;
+border-radius: 0px 150px 0px 2px;
+
+}
+.so_luong{
+    display: flex;
+    align-items: center;
+    margin-left: 27px;
+    margin-top: 40px;
+}
+.so_luong-name{
+    font-size: 2rem;
+    width: 120px;
+    
+}
+.number1{
+    /* padding: 10px; */
+    border: 1px solid #ccc;
+    font-size: 2.5rem;
+    
+}
+.imput{
+    text-align: center;
+    max-width: 70px;
+    height: 36px;
+    border: none;
+}
+.number{
+    font-size: 4rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.ton_kho{
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+.btn-buy{
+    display: flex;
+    margin-left: 27px;
+    margin-top: 60px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.btn-add-stack{
+    
+}
+.add{
+    padding: 20px 50px ;
+    margin-right: 20px;
+    font-size: 2.3rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    border: 1px  solid var(--primary-color);
+    border-radius: 3px;
+    background-color: #fcf0ee;
+    cursor: pointer;
+
+}
+.add:hover{
+    background-color: var(--white-color);
+}
+.add-icon{
+    padding-right: 10px;
+
+}
+.btn-buy-product{
+
+}
+.buy1{
+    padding: 20px 50px;
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    font-size: 2.3rem;
+    cursor: pointer;
+}
+.buy1:hover{
+    opacity: 0.8;
+}
+.product_description{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+
+}
+.product_description-name{
+    font-size: 2.7rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    border-bottom: 1px solid #cccc;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+.product_description-img{
+    
+    display: flex;
+    flex-direction: column;
+}
+.ao{
+    position: relative;
+
+}
+.product_description-img-item{
+    border-radius: 5px;
+    
+
+
+   
+}
+.product_description-img-item1{
+    
+
+    
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* transform: translateY(-40%); */
+    background-color:#161618;
+    border-radius: 5px;
+}
+.product_description-img-item1-1{
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translateY(-20%);
+
+}
+.sosanh{
+   
+    display: flex;
+    flex-direction: column;
+}
+.sosanh-item{
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 15px 0 ;
+
+}
+.gird_row-top1{
+    padding-top: 160px;
+}
+.gird_row-top{
+    padding-top: 110px;
+}
